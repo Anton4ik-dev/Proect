@@ -19,7 +19,7 @@
         }
         .verh{
             font-size: 10vh;
-            margin: 20vh auto 0 auto;
+            margin: 22vh auto 0 auto;
             width: 78vw;
             text-align: center;
         }
@@ -136,7 +136,6 @@
         
         h4{
             font-family: 'Vollkorn', serif;
-            
         }
         h3{
             margin: 10vh auto 8vh;
