@@ -5,9 +5,9 @@
             padding: 0;
         }
         body{
-            font: 500 2.6vh 'PT Serif', serif;
+            font: 500 2.7vh 'PT Serif', serif;
             background: url(images/fon.png);
-            background-size: 100vw;
+            background-size: 100vw 100vh;
             background-attachment: fixed;
             background-repeat: no-repeat;
             color: white;
@@ -34,11 +34,15 @@
             list-style-type: none;
         }
         li{
-            width: calc(100%/4 - 7.5vh);
-            margin-left: 6vh;
+            width: calc(100%/4 - 5vw);
+            margin-left: 4.5vw;
             display: inline-block;
             text-align: center;
             font-size: 4vh;
+        }
+        .bc{
+            width: 99vw;
+            color: white;
         }
         a{
             text-decoration: none;
@@ -46,24 +50,24 @@
         }
         .info{
             display: inline-block;
-            padding: 10vh calc(50% - 65vh);
+            padding: 10vh calc(50% - 35vw);
             text-align: justify;
             }
         p{
-            margin: 7vh auto 7vh auto;
+            margin: 8vh auto;
         }
         .imgleft{
-            width: 47vh;
+            width: 24vw;
             height: 31vh;
             float: left;
-            padding-right: 1vh;
+            padding-right: 1vw;
             padding-top: 1vh;
         }
         .imgright{
-            width: 47vh;
+            width: 24vw;
             height: 31vh;
             float: right;
-            padding-left: 1vh;
+            padding-left: 1vw;
             padding-top: 1vh;
         }
         .fin{
@@ -81,10 +85,10 @@
         }
         .podval{
             display: inline-block;
-            width: 125vh;
+            width: 61.6vw;
             height: 10vh;
             font-family: "Montserrat Alternates", serif;
-            padding: 0 calc(50% - 62.5vh) 10vh;
+            padding: 0 calc(50% - 30.8vw) 10vh;
             background: #222;
             text-align: center;
             font-size: 3vh;
@@ -129,10 +133,14 @@
         a:hover{
             color: red  ;
         }
-        .bc{
-            width: 99vw;
-            color: white;
-        }
-        h3, h4{
+        
+        h4{
             font-family: 'Vollkorn', serif;
+            
+        }
+        h3{
+            margin: 10vh auto 8vh;
+        }
+        .prishlos{
+            margin: 4vh auto;
         }
