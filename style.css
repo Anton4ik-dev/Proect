@@ -19,7 +19,7 @@
         }
         .verh{
             font-size: 10vh;
-            margin: 22vh auto 0 auto;
+            margin: 24vh auto 0 auto;
             width: 78vw;
             text-align: center;
         }
@@ -52,7 +52,7 @@
             display: inline-block;
             padding: 10vh calc(50% - 35vw);
             text-align: justify;
-            }
+        }
         p{
             margin: 8vh auto;
         }
@@ -133,7 +133,6 @@
         a:hover{
             color: red  ;
         }
-        
         h4{
             font-family: 'Vollkorn', serif;
         }
