@@ -5,7 +5,7 @@
             padding: 0;
         }
         body{
-            font: 500 2.7vh 'PT Serif', serif;
+            font: 500 26px 'PT Serif', serif;
             background: url(images/fon.png);
             background-size: 100vw 100vh;
             background-attachment: fixed;
@@ -18,27 +18,27 @@
             width: 99vw;
         }
         .verh{
-            font-size: 10vh;
-            margin: 24vh auto 0 auto;
+            font-size: 100px;
+            margin: 220px auto 0 auto;
             width: 78vw;
             text-align: center;
         }
         h2{
-            font-size: 10vh;
+            font-size: 100px;
             margin: 0 auto;
             width: 58vw;
             text-align: center;
         }
         ul{
-            margin: 15vh auto 0 auto;
+            margin: 150px auto 0 auto;
             list-style-type: none;
         }
         li{
-            width: calc(100%/4 - 5vw);
-            margin-left: 4.5vw;
+            width: calc(100%/4 - 70px);
+            margin-left: 45px;
             display: inline-block;
             text-align: center;
-            font-size: 4vh;
+            font-size: 40px;
         }
         .bc{
             width: 99vw;
@@ -49,67 +49,69 @@
             color: inherit;
         }
         .info{
+            width: 1300px;
             display: inline-block;
-            padding: 10vh calc(50% - 35vw);
+            padding: 10vh calc(50% - 650px);
             text-align: justify;
         }
         p{
-            margin: 8vh auto;
+            margin: 80px auto;
         }
         .imgleft{
             width: 24vw;
             height: 31vh;
             float: left;
-            padding-right: 1vw;
-            padding-top: 1vh;
+            padding-right: 10px;
+            padding-top: 10px;
         }
         .imgright{
             width: 24vw;
             height: 31vh;
             float: right;
-            padding-left: 1vw;
-            padding-top: 1vh;
+            padding-left: 10px;
+            padding-top: 10px;
         }
         .fin{
+            width: 1200px;
             display: flex;
             height: 80vh;
             font-family: "Montserrat Alternates", serif;
-            padding: 0 calc(50% - 32vw);
+            padding: 0 calc(50% - 600px);
             flex-wrap: wrap;
         }
         .niz{
-            font-size: 8vh;
-            margin: 5vh 9vw 0;
+            font-size: 80px;
+            margin: 50px 90px 0;
             text-align: center;
             width: 45vw;
         }
         .podval{
             display: inline-block;
-            width: 61.6vw;
-            height: 10vh;
+            width: 1000px;
+            height: 100px;
             font-family: "Montserrat Alternates", serif;
-            padding: 0 calc(50% - 30.8vw) 10vh;
+            padding: 0 calc(50% - 500px) 100px;
             background: #222;
             text-align: center;
-            font-size: 3vh;
+            font-size: 30px;
             color: white;
         }
         .text{
             height: 7vh;
-            font-size: 4vh;
+            font-size: 40px;
             font-family: "Montserrat Alternates", serif;
-            border-radius: 1vh;
-            margin-bottom: 5vh;
+            border-radius: 10px;
+            margin-bottom: 50px;
             width: 37vw;
         }
         textarea{
             height: 20vh;
             width: 37vw;
             resize: none;
-            font-size: 4vh;
+            font-size: 40px;
             font-family: "Montserrat Alternates", serif;
-            border-radius: 1vh;
-            margin-bottom: 5vh;
+            border-radius: 10px;
+            margin-bottom: 50px;
         }
         form{
             width: 40vw;
@@ -118,8 +120,8 @@
         .button{
             width: 10vw;
             height: 5vh;
-            border-radius: 1vh;
-            font-size: 2vh;
+            border-radius: 10px;
+            font-size: 24px;
             font-family: "Montserrat Alternates", serif;
             cursor: pointer;
         }
@@ -127,15 +129,15 @@
             border-radius: 50%;
             width: 20vw;
             height: 35vh;
-            margin-bottom: 7vh;
-            margin-left: 4vh;
+            margin-bottom: 70px;
+            margin-left: 40px;
         }
         a:hover{
-            color: red  ;
+            color: red ;
         }
         h3{
-            margin: 10vh auto 8vh;
+            margin: 100px auto 80px;
         }
         .prishlos{
-            margin: 4vh auto;
+          margin: 50px;
         }
